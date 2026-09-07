@@ -40,8 +40,7 @@ main {
    2. Header & Navigation
    ========================================================================== */
 .hdr { 
-  letter-spacing: 0.3em; 
-  border: 1px solid #000; 
+  letter-spacing: 0.3em;  
   padding: 10px 0; 
 }
 
@@ -51,8 +50,7 @@ main {
 }
 .menu-nav {
   padding: 10px; 
-  border: 1px solid #000; 
-  border-top: none; 
+  border: 1px solid #000;
 }
 
 .button-menu { 
