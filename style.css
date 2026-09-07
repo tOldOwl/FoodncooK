@@ -226,8 +226,8 @@ html {
    5. Footer
    ========================================================================== */
 .ftr { 
-  border: 1px solid #000; 
-  padding: 15px 0; 
+  border-top: 1px solid #000; 
+  padding-top: 15px; 
 }
 
 .site-name { 
