@@ -1,9 +1,10 @@
+
 #sortBtn {
     background-color: #000000;
     color: #ffffff;
-  border: 1px solid #000;
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
+    border: 1px solid #000;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     letter-spacing: 1.5px; /* Spreads the text letters out slightly */
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
@@ -28,12 +29,12 @@ body {
   min-height: 100vh;
 
   /* Polka Dot CSS Background Pattern */
-  background-color: #B6E2FF;   /* Soft, pleasant light blue background */
+  background-color: #B6E2FF;
   background-image: 
     radial-gradient(#ffffff 15%, transparent 15%),
     radial-gradient(#ffffff 15%, transparent 15%);
-  background-size: 24px 24px;  /* Spacing density: looks great spread across a big screen */
-  background-position: 0 0, 12px 12px; /* Offsets the dots so they alternate beautifully */
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
 }
 
 main {
@@ -43,19 +44,25 @@ main {
    2. Header & Navigation
    ========================================================================== */
 .hdr { 
-  letter-spacing: 0.3em;  
-  padding-bottom: 10px;
+  letter-spacing: 0.3em; 
+  padding-bottom: 10px; 
 }
 
 .hdr h1 { 
   margin: 0; 
   font-size: 4rem; 
 }
+
+.small-text {
+    font-size: 0.6em;
+    vertical-align: middle; /* Optional: keeps the text aligned nicely */
+}
+
 .menu-nav {
-  padding: 10px; 
+  padding: 10px;  
   border: 1px solid #000;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
 }
 
 .button-menu { 
@@ -138,7 +145,7 @@ main {
   background-color: #fafafa;
   
   /* Vertical scrolling adjustments */
-  max-height: 80vh; /* Gives the card more height before scrolling */
+  max-height: 70vh; /* Gives the card more height before scrolling */
   overflow-y: auto; 
 }
 
@@ -164,6 +171,8 @@ main {
 
 /* Structural rule to make the photo fit perfectly within the layer scheme */
 .recipe img {
+  max-height: 220px;
+  object-fit: cover;
   display: block;
   width: 100%;
   height: auto;
